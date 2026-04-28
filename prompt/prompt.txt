@@ -1,0 +1,23 @@
+Story: Add S3 transaction file processing to this Spring Boot app.
+
+Retrieve transaction files from S3 and parse records containing:
+userId, timestamp, status.
+
+Use Java Spring Boot.
+Create an S3Controller.
+Use service classes for business logic.
+Use config properties for S3 settings.
+Do not hardcode credentials.
+
+Malformed rows must be logged and skipped.
+Processing should continue for valid rows.
+
+Unit tests required.
+80%+ coverage for new code.
+Cover edge cases:
+- empty file
+- malformed row
+- invalid timestamp
+- missing file
+
+All tests must pass.
