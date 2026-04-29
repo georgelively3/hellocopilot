@@ -21,6 +21,10 @@ public class ProductController {
     private final ProductService productService;
 
     /**
+     * 
+     */
+
+    /**
      * GET /api/products
      * Returns all products.
      */

@@ -1,0 +1,10 @@
+Please analyze StringUtil to find some potential refactorings using this list of code smells:
+Long Methods
+Large Classes
+Duplicate Code
+Long Parameter List
+Tight Coupling
+Lack of Tests
+Inconsistent Naming
+Cyclomatic Complexity
+I would like a list of potential refactorings and some recommended changes.
